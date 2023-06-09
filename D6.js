@@ -249,7 +249,7 @@ console.log(countMovies(movies))
 /* ESERCIZIO 13 (reduce)
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
-const totalYear = movie.Year.reduce((totalYear, singleNumbers)=>{
+const totalYear = movies.Year.reduce((totalYear, singleNumbers)=>{
   return totalYear + singleNumbers
 }
 )
